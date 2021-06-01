@@ -1,0 +1,23 @@
+find the sum of multiple of x or y below n
+
+N=int(input("enter the no of digits:"))
+y=[]
+a=int(input("enter the multiple of:"))
+a1=int(input("enter the  2nd multiple of:"))
+
+for i in range(1,N-1):
+    if a == 0 or a is empty:
+        pass
+    else:
+        if i%a == 0:
+            y.append(i)
+    if a1 == 0 or a1 is empty:
+        pass
+    else:
+        if i % a1 == 0:
+            if i not in y:
+                y.append(i)
+print(y)
+n=len(y)
+s=sum(y)
+print(s)
